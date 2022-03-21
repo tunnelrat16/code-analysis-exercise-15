@@ -17,16 +17,16 @@ function (person, petName){
 }
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input              | Output                                     |
+| -----              | ------                                     |
+| "Billy", "Flipper" | Not Found in array, so return is undefined | 
+| "Marsha", "Tiger"  | Found in array, return is dog              | 
+| "Shaggy", "Scooby" | Found in array, return is dog              | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes a list of dog names in an array and checks to see if it matches the pet name given to determine if it is a dog</td>
   </tr>
 </table>
 

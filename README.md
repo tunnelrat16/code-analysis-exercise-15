@@ -17,11 +17,11 @@ function (person, petName){
 }
 ```
 
-| Input            | Output              |
-| -----            | ------              |
-| Billy, 'Flipper' | return is undefined | 
-| Marsha, 'Tiger'  | return is dog       | 
-| Shaggy, 'Scooby' | return is dog       | 
+| Input                                                   | Output              |
+| -----                                                   | ------              |
+| { dogs: [{ name: "Sparky"},{ name: "Sammy"}], "Sammy"   | { name: "Sammy"}    | 
+| { dogs: [{ name: "Sparky"},{ name: "Sammy"}], "Sparky"  | { name: "Sparky"}   |
+| { dogs: [{ name: "Sparky"},{ name: "Sammy"}], "Flipper" | undefined           |
 
 <table>
   <tr>
